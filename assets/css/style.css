@@ -356,23 +356,23 @@ a:hover{
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
 
-#hero {
+#home {
     position: relative;
     padding: 160px 0px 50px 0px;
     min-height: 100vh;
 }
 
-#hero .name {
+#home .name {
     background: var(--primary-gradient-color);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
-#hero .btn-showcase {
+#home .btn-showcase {
     border-radius: 32px;
     border-color: #7042f88b;
     border-width: 1px;
@@ -384,24 +384,24 @@ a:hover{
     -webkit-transition: box-shadow .45s cubic-bezier(.6,.6,0,1);
 }
 
-#hero .btn-showcase i {
+#home .btn-showcase i {
     font-size: 13px;
 }
 
-#hero .btn-showcase:hover {
+#home .btn-showcase:hover {
     box-shadow: inset 0 -7px 11px rgba(141, 53, 229, .536);
 }
 
-#hero .badge-button {
+#home .badge-button {
     margin-bottom: 15px;
 }
 
-#hero .tagline {
+#home .tagline {
     letter-spacing: 1.5px;
     color: var(--muted-text);
 }
 
-.hero-portrait .pic {
+.home-portrait .pic {
     position: absolute;
     right: 0;
     top: 0;
@@ -414,11 +414,11 @@ a:hover{
 }
 
 @media (max-width: 576px) {
-    #hero {
+    #home {
         padding: 35px 0px 0px 0px;
     }
 
-    .hero-portrait {
+    .home-portrait {
         position: relative;
         overflow: hidden;
         width: 100%;
@@ -433,7 +433,7 @@ a:hover{
         background-clip: content-box, border-box;
     }
 
-    .hero-portrait .pic {
+    .home-portrait .pic {
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -441,25 +441,25 @@ a:hover{
         background-image: url(/assets/images/portrait.webp);
     }
 
-    .hero-content{
+    .home-content{
         margin-top: 35px;
     }
 
-    #hero .btn-showcase {
+    #home .btn-showcase {
         font-size: 12px;
     }
 
-    #hero .tagline {
+    #home .tagline {
         font-size: 14px;
         letter-spacing: 1.2px;
     }
 
-    #hero .social-icons a{
+    #home .social-icons a{
         font-size: 14px;
         padding: 0px 5px 0px 5px;
     }
 
-    #hero .call-to-action{
+    #home .call-to-action{
         margin-top: 0px;
     }
 }
@@ -494,6 +494,7 @@ a:hover{
     padding: 11px;
 }
 
+
 #process .circle {
     display: flex;
     justify-content: center;
@@ -521,23 +522,23 @@ a:hover{
 }
 
 /*--------------------------------------------------------------
-# About Section
+# Desenvolvimento Section
 --------------------------------------------------------------*/
-#about{
+#Desenvolvimento{
     padding: 100px 0px;
     background-image: url(/assets/images/grid.png);
     background-size: contain;
     min-height: 100vh;
 }
 
-.about-portrait{
+.Desenvolvimento-portrait{
     display: flex;
     padding: 30px 0px 30px 0px;
     justify-content: center;
     align-items: center;
 }
 
-.about-portrait::before {
+.Desenvolvimento-portrait::before {
     content: "";
     background-color: transparent;
     height: 300px;
@@ -550,13 +551,13 @@ a:hover{
     -webkit-transition-duration: .5s;
 }
 
-.about-portrait:hover::before {
+.Desenvolvimento-portrait:hover::before {
     transform: translate(-23px,-23px);
     transition-duration: .5s;
     -webkit-transition-duration: .5s;
 }
 
-.about-portrait::after {
+.Desenvolvimento-portrait::after {
     content: "";
     background-color: transparent;
     height: 300px;
@@ -569,13 +570,13 @@ a:hover{
     -webkit-transition-duration: .5s;
 }
 
-.about-portrait:hover::after {
+.Desenvolvimento-portrait:hover::after {
     transform: translate(35px,30px);
     transition-duration: .5s;
     -webkit-transition-duration: .5s;
 }
 
-.about-portrait .pic{
+.Desenvolvimento-portrait .pic{
     width: 70%;
     height: auto;
     border-radius: 0.5rem;
@@ -584,7 +585,7 @@ a:hover{
     -webkit-box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 12px 8px 0px 0px #850dd5;
 }
 
-#about .bio{
+#Desenvolvimento .bio{
     padding: 30px 0 30px 0;
     color: var(--muted-text);
     font-size: 15px;
@@ -592,14 +593,14 @@ a:hover{
 }
 
     @media (max-width: 576px) {
-        .about-portrait{
+        .Desenvolvimento-portrait{
             display: flex;
             padding: 30px 36px 30px 36px;
         }
-        .about-portrait .pic {
+        .Desenvolvimento-portrait .pic {
             width: 90%;
         }
-        #about .bio{
+        #Desenvolvimento .bio{
             font-size: 14px;
             padding: 30px 15px 30px 15px;
         }
@@ -614,7 +615,7 @@ a:hover{
     min-height: 100vh;
 }
 
-.skill{
+.tolls{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -627,12 +628,12 @@ a:hover{
     -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
 }
 
-.skill-image{
+.tolls-image{
     width: 71px;
     padding: 8px;
 }
 
-.skill-name{
+.tolls-name{
     letter-spacing: 2px;
     font-size: 17px;
     padding-top: 5px;
@@ -1044,10 +1045,20 @@ a:hover{
     transform: translate(0, -0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
 }
 
+
 .github{
     margin-left: 0.5rem;
 }
 
 .linkedin{
     margin-left: 0.2rem;
+}
+
+.tools-game{
+    margin-top: 2rem;
+}
+
+.tolls-font{
+    height: 7rem;
+    width: 7rem;
 }
