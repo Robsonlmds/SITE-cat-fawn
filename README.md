@@ -1,11 +1,11 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=20&duration=1500&pause=1000&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=700&height=110&lines=Cat+Fawn " 
+    <img src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=20&duration=1500&pause=1000&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=700&height=110&lines=SITE-Cat+Fawn " 
     alt="Typing SVG" />
   </a>
   
 <h5 align="center"> 
-  <b>✅ Completo</b> | <b>✅ Funcional </b>
+  <b>✅ Completo</b> | <b>✅ Funcional </b> | <a href="https://test-game-azure.vercel.app">JOGUE AGORA🎮</a> 
 </h5>
     
 </div>
@@ -71,7 +71,7 @@ Cat Fawn é um jogo emocionante que combina aventura, desafios únicos e mecâni
 Se gostou do projeto ou tem sugestões, entre em contato conosco:
 
 - **Site**: [Entre em contato](https://lucasmessias.vercel.app/).
-- **Jogue Agora**: [Cat Fawn - Jogue Agora](game.html).
+- **Jogue Agora**: [Cat Fawn - Jogue Agora](https://test-game-azure.vercel.app).
 
 ---
 
@@ -82,7 +82,7 @@ Se gostou do projeto ou tem sugestões, entre em contato conosco:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/robsonlmds">
+      <a href="https://lucasmessias.vercel.app">
         <img src="https://avatars.githubusercontent.com/u/e?email=robsonlmds@hotmail.com&s=500" width="100px;" title="Autor Robson Lucas Messias" alt="Foto de Perfil do GitHub - Robson Lucas Messias"/><br>
         <sub>
           <b>Robson Lucas Messias</b>
