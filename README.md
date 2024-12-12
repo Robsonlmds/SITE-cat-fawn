@@ -5,7 +5,7 @@
   </a>
   
 <h5 align="center"> 
-  <b>✅ Completo</b> | <b>✅ Funcional </b> | <a href="https://test-game-azure.vercel.app">JOGUE AGORA🎮</a> 
+  <b>✅ Completo</b> | <b>✅ Funcional </b> | <a href="https://test-game-azure.vercel.app">JOGUE AGORA🎮</a> | <a href="https://homepage-cat-fawn.vercel.app">SITE 🌐</a> 
 </h5>
     
 </div>
@@ -16,7 +16,7 @@ Cat Fawn é um jogo emocionante que combina aventura, desafios únicos e mecâni
   
 ## Demonstração
   
-  ![Demonstração do FIPECar](src/main/java/br/com/robsonlmds/assets/video-fipecar.gif)
+  ![Demonstração do FIPECar](assets/video-cat_fawn)
 </div>
 
 ---
